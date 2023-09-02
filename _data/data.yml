@@ -1,0 +1,172 @@
+# Be aware that even a small syntax error here can lead to failures in output.
+sidebar:
+    position: left # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ruby Faulkner
+    tagline: Stay @ Home Mom
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ruby@bluebotpc.com
+    #phone: 012 345 6789
+    timezone: America/Chicago
+    #citizenship:
+    #website: www.mattfaulkner.net #do not add http://
+    #linkedin: mattfaulknerbbpc
+    #xing:
+    #github: goobyfrs
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@frsgooby'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: English
+          level: Native
+        
+        - idiom: Spanish
+          level: Beginner
+
+    interests:
+      title: Interests
+      info:
+        - item: Agriculture
+          link:
+
+        - item: Motorsports
+          link:
+
+        - item: Gaming
+          link:
+
+career-profile:
+    title: Career Overview
+    summary: |
+      Motivated Infrastructure Technician with a demonstrated ability to perform
+      engineering-level troubleshooting in Cisco, Juniper, and Versa Networks environments. I am experienced
+      in managing networking, compute, storage, and cloud infrastructures and technologies.
+ 
+education:
+    title: Education
+    info:
+      - degree: General Studies, AAS 
+        university: Community College of Aurora
+        time: 2017 - 2021
+        details: |
+          Introduction into the analysis, design, implementation, and management of Computer Information Systems (CIS)
+          that aide in business operations and drive efficiency.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Senior Infrastructure Technician
+        time: 2022 - Present
+        company: Nordstrom, Denver
+        details: |
+          Experience in the lifecycle management of various python-based automation tools and platforms. 
+          Implementing & managing 300+ SDWAN data circuits including 3x Data Center locations. 
+          Using tools such as NewRelic, Versa Networks, Git, Python3, Stackstorm Composer, and Terraform.
+
+      - role: Network Technician II
+        time: 2020 - 2022
+        company: Nordstrom, Denver
+        details: | 
+          Manage and maintain 320+ MPLS Data Circuits including 3x Data Center locations.
+          Subject Matter Expert in Cisco Networks. Using tools such as SolarWinds, LiveNX, and DataDog.
+
+      - role: IT Specialist
+        time: 2019 - 2020
+        company: Humanscale, Denver
+        details: |
+          Contracted for an Office 365 rollout. Performed administrative duties for 
+          Office 365 and Active Directory including user provisioning, group management, 
+          Group Policy creation, device imaging, deployment, and InTune management. 
+          Network Management using Ubiquiti.
+
+certifications:
+      title: Certifications
+      list:
+        - name: Akamai Cloud Practitioner
+          start: 2023
+          end: 2025
+          organization: Akamai
+          #credentialid: 111-222
+          credentialurl: gooby-s3.us-southeast-1.linodeobjects.com/linodeSolutionsPartnerBadge.png
+          credentialname: Cloud Computing Masterclass
+          details: |
+            Comprehensive introduction into the lifecycle of virtual instance deployment and 
+            configuration management for Cloud Practitioners of the Linode Platform.
+            - Linode CLI & API
+            - Server & Cloud Security
+            - Server & Database Scaling
+            - Linux Compute Administration
+            
+        - name: Learn Linux in 5 Days
+          start: 2023
+          organization: Udemy
+          credentialid: 08ebfa07b97 #UC-31651e38-c00a-4cde-8645-08ebfa07b97
+          credentialurl: gooby-s3.us-southeast-1.linodeobjects.com/udemy_learn_linux_in_5_days_and_level_up_your_carerr_jcannon_mattFaulkner_certificate.pdf
+          credentialname: Learn Linux in 5 Days & Level Up your Career
+          details: |
+            Use the in-demand Linux skills you learn in this course to get promoted or start a new career as a Linux professional. 
+            - CLI Fundementals
+            - File Permissions & Management
+            - Automation using cron
+
+projects:
+    title: Projects
+    intro: >
+      Side projects that I participate in for fun!
+    assignments:
+      - title: BlueBotPC LLC
+        link: "https://www.bluebotpc.com"
+        tagline: "Family-owned IT Services Provider based in New Salem, North Dakota"
+    
+      - title: WordPress Blog
+        link: "https://www.mattfaulkner.net"
+        tagline: "Personal Blog & Online Space"
+
+      - title: Resume Hosting
+        link: "https://cv.bluebotpc.com"
+        tagline: "Online Resume Hosting"
+
+oss:
+    title: Open Source Contributions
+    intro: >
+      Below you will find a short list of my favorite Open-Source programs that I have contributed too.
+    contributions:
+      - title: Pi-Hole
+        link: "https://github.com/pi-hole/pi-hole"
+        tagline: "A black hole for Internet advertisements."
+        
+      - title: Goobs Blocklist 
+        link: "https://github.com/GoobyFRS/gooby-tools/blob/main/pihole/blocklist.txt"
+        tagline: "Goobs hostfile for pi-hole."
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Windows 10 IT Support
+        level: 100%
+
+      - name: Automotive Repair
+        level: 95%
+
+      - name: Plumbing & Electrical
+        level: 90%
+        
+     - name: Network Support
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
