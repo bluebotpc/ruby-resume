@@ -1,172 +1,265 @@
+#
 # Be aware that even a small syntax error here can lead to failures in output.
+#
+
 sidebar:
-    position: left # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    position: right # position of the sidebar : left or right
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Ruby Faulkner
-    tagline: Stay @ Home Mom
+    name: Alan Doe
+    tagline: Full Stack Developer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: ruby@bluebotpc.com
-    #phone: 012 345 6789
-    timezone: America/Chicago
-    #citizenship:
-    #website: www.mattfaulkner.net #do not add http://
-    #linkedin: mattfaulknerbbpc
-    #xing:
-    #github: goobyfrs
-    #telegram: # add your nickname without '@' sign
-    #gitlab:
-    #bitbucket:
-    #twitter: '@frsgooby'
-    #stack-overflow: # Number/Username, e.g. 123456/alandoe
-    #codewars:
-    #goodreads: # Number-Username, e.g. 123456-alandoe
-    #pdf: http://www.africau.edu/images/default/sample.pdf
+    email: hello@webjeda.com
+    phone: 012 345 6789
+    timezone: America/Cancun Timezone
+    citizenship:
+    website: blog.webjeda.com #do not add http://
+    linkedin: alandoe
+    xing: alandoe
+    github: sharu725
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@webjeda'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: http://www.africau.edu/images/default/sample.pdf
 
     languages:
       title: Languages
       info:
         - idiom: English
           level: Native
-        
+
+        - idiom: French
+          level: Professional
+
         - idiom: Spanish
-          level: Beginner
+          level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Agriculture
+        - item: Climbing
           link:
 
-        - item: Motorsports
+        - item: Snowboarding
           link:
 
-        - item: Gaming
+        - item: Cooking
           link:
 
 career-profile:
-    title: Career Overview
+    title: Career Profile
     summary: |
-      Motivated Infrastructure Technician with a demonstrated ability to perform
-      engineering-level troubleshooting in Cisco, Juniper, and Versa Networks environments. I am experienced
-      in managing networking, compute, storage, and cloud infrastructures and technologies.
- 
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
+      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+      Donec quam felis, ultricies nec, pellentesque eu.
+      Second paragraph if required.
 education:
     title: Education
     info:
-      - degree: General Studies, AAS 
-        university: Community College of Aurora
-        time: 2017 - 2021
+      - degree: MSc in Computer Science
+        university: University of London
+        time: 2011 - 2012
         details: |
-          Introduction into the analysis, design, implementation, and management of Computer Information Systems (CIS)
-          that aide in business operations and drive efficiency.
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - degree: BSc in Applied Mathematics
+        university: Bristol University
+        time: 2007 - 2011
+        details: |
+          Describe your study here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+          sociis natoque penatibus et magnis dis parturient montes, nascetur
+          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+          pretium quis, sem.
+            - Bullet point
+            - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Senior Infrastructure Technician
-        time: 2022 - Present
-        company: Nordstrom, Denver
+      - role: Lead Developer
+        time: 2015 - Present
+        company: Startup Hubs, San Francisco
         details: |
-          Experience in the lifecycle management of various python-based automation tools and platforms. 
-          Implementing & managing 300+ SDWAN data circuits including 3x Data Center locations. 
-          Using tools such as NewRelic, Versa Networks, Git, Python3, Stackstorm Composer, and Terraform.
-
-      - role: Network Technician II
-        time: 2020 - 2022
-        company: Nordstrom, Denver
-        details: | 
-          Manage and maintain 320+ MPLS Data Circuits including 3x Data Center locations.
-          Subject Matter Expert in Cisco Networks. Using tools such as SolarWinds, LiveNX, and DataDog.
-
-      - role: IT Specialist
-        time: 2019 - 2020
-        company: Humanscale, Denver
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+          error sit voluptatem accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+          architecto beatae vitae dicta sunt explicabo.
+            - Bullet point
+            - Bullet point
+      - role: Senior Software Engineer
+        time: 2014 - 2015
+        company: Google, London
         details: |
-          Contracted for an Office 365 rollout. Performed administrative duties for 
-          Office 365 and Active Directory including user provisioning, group management, 
-          Group Policy creation, device imaging, deployment, and InTune management. 
-          Network Management using Ubiquiti.
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
+      - role: UI Developer
+        time: 2012 - 2014
+        company: Amazon, London
+        details: |
+          Describe your role here lorem ipsum dolor sit amet, consectetuer
+          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+          Cum sociis natoque penatibus et magnis dis parturient montes,
+          nascetur ridiculus mus. Donec quam felis, ultricies nec,
+          pellentesque eu, pretium quis, sem.
+            - Bullet point
+            - Bullet point
 
 certifications:
       title: Certifications
       list:
-        - name: Akamai Cloud Practitioner
-          start: 2023
-          end: 2025
-          organization: Akamai
-          #credentialid: 111-222
-          credentialurl: gooby-s3.us-southeast-1.linodeobjects.com/linodeSolutionsPartnerBadge.png
-          credentialname: Cloud Computing Masterclass
+        - name: CV Builder
+          start: 2020
+          end: 2021
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.google.com
+          credentialname: Google
           details: |
-            Comprehensive introduction into the lifecycle of virtual instance deployment and 
-            configuration management for Cloud Practitioners of the Linode Platform.
-            - Linode CLI & API
-            - Server & Cloud Security
-            - Server & Database Scaling
-            - Linux Compute Administration
-            
-        - name: Learn Linux in 5 Days
-          start: 2023
-          organization: Udemy
-          credentialid: 08ebfa07b97 #UC-31651e38-c00a-4cde-8645-08ebfa07b97
-          credentialurl: gooby-s3.us-southeast-1.linodeobjects.com/udemy_learn_linux_in_5_days_and_level_up_your_carerr_jcannon_mattFaulkner_certificate.pdf
-          credentialname: Learn Linux in 5 Days & Level Up your Career
+            Details about cert. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
+
+            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+            fringilla vel. Ut euismod, sem sed vulputate venenatis,
+            justo diam viverra velit, sed rhoncus leo leo eu justo.
+            Suspendisse placerat risus ante, sed porta nisi blandit at.
+        - name: Git learning
+          start: 2019
+          end:
+          organization: Microsoft
+          credentialid: 111-222
+          credentialurl: www.github.com
+          credentialname: Github
           details: |
-            Use the in-demand Linux skills you learn in this course to get promoted or start a new career as a Linux professional. 
-            - CLI Fundementals
-            - File Permissions & Management
-            - Automation using cron
+            Older certification. Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit.
+            Nullam eget orci purus. Nullam ultrices neque nibh.
+            Aenean fermentum, felis vulputate suscipit accumsan,
+            sem enim bibendum augue, sed convallis arcu lacus at dui.
+            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+            Praesent venenatis erat non augue suscipit consectetur.
 
 projects:
     title: Projects
     intro: >
-      Side projects that I participate in for fun!
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: BlueBotPC LLC
-        link: "https://www.bluebotpc.com"
-        tagline: "Family-owned IT Services Provider based in New Salem, North Dakota"
-    
-      - title: WordPress Blog
-        link: "https://www.mattfaulkner.net"
-        tagline: "Personal Blog & Online Space"
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-      - title: Resume Hosting
-        link: "https://cv.bluebotpc.com"
-        tagline: "Online Resume Hosting"
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
-    title: Open Source Contributions
+    title: OSS Contributions
     intro: >
-      Below you will find a short list of my favorite Open-Source programs that I have contributed too.
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Pi-Hole
-        link: "https://github.com/pi-hole/pi-hole"
-        tagline: "A black hole for Internet advertisements."
-        
-      - title: Goobs Blocklist 
-        link: "https://github.com/GoobyFRS/gooby-tools/blob/main/pihole/blocklist.txt"
-        tagline: "Goobs hostfile for pi-hole."
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Windows 10 IT Support
-        level: 100%
+      - name: Python & Django
+        level: 98%
 
-      - name: Automotive Repair
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
         level: 95%
 
-      - name: Plumbing & Electrical
-        level: 90%
-        
-     - name: Network Support
-        level: 80%
+      - name: Ruby on Rails
+        level: 85%
+
+      - name: Sketch & Photoshop
+        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
