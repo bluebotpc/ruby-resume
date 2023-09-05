@@ -16,9 +16,9 @@ sidebar:
     email: ruby@bluebotpc.com
     #phone: 012 345 6789
     timezone: America/Chicago
-    #citizenship:
-    website: ruby.bluebotpc.com #do not add http://
-    #linkedin: alandoe
+    #citizenship: USA
+    website: rubyskinner.github.io #do not add http://
+    linkedin: ruby-skinner-808979196
     #xing: alandoe
     github: rubyskinner
     #telegram: # add your nickname without '@' sign
@@ -54,58 +54,52 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I have worked in various industries in an effort to find what I am happy doing. I enjoy administrative office work; especially data entry and I am looking into 
+      Data Science Certificate programs. I have strong technical skills with computers and I am very mechanically inclined. I can be adaptable and make well thought decisions 
+      without supervision.
 
 education:
     title: Education
     info:
-      - degree: General Studies, AS
+      - degree: General Studies
         university: Community College of Aurora
         time: 2019 - 2022
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+        #details: |
+#          Build your own Major
 
 experiences:
     title: Experiences
     info:
-      - role: IT Technician
+      - role: Technician
         time: 2022 - Present
-        company: BlueBotPC LLC, Denver
+        company: BlueBotPC LLC, Lone Tree, CO
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
+          Providing Personal Computer support in-person and remote using standard Industry tools and 
+          processes to efficiently and effectively resolve the root cause for end user issues. 
+          - Customer Service
+          - Laptop & Desktop Support
+          - Malware Removal
+          - Home Network Support
+
+      - role: MailRoom Clerk
+        time: 2022 - Present
+        company: Covius Shared Service LLC, Glendale, CO
+        details: |
+          Responsible for sorting and scanning incoming mail as well as various other Mail Room related tasks. 
+          - Entered data from mail into an in-house software.
+          - Sorted and counted checks for reality companies. 
 
       - role: Team Lead
-        time: 2016 - 2022
-        company: HydroTech Pools & Spas, Aurora
+        time: 2016 - 2020
+        company: HydroTech Pools & Spas, Aurora, CO
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          As the HydroTech Team Lead I was responsible for a wide range of business operations. Including but not limited to...
+          - Reporting and Logging employee attendance.
+          - Ensures employee hours are logged correctly and employees are paid on-time.
+          - Ensures customers are billed on-time and up-to-date on payments.
+          - Takes customer complaints and concerns and addresses them as needed.
+          - Scheduled equipment installs and repairs.
+          - Maintains and repairs pool and spa equipment in an unsupervised environment.
 
 certifications:
       title: Certifications
@@ -117,12 +111,13 @@ certifications:
           credentialurl: https://gooby-s3.us-southeast-1.linodeobjects.com/rubyCompTIA_itf_certification.pdf
           credentialname: CompTIA IT Fundamentals+
           details: |
-            Comprehensive introduction into the lifecycle of virtual instance deployment and configuration management for Cloud Practitioners of the Linode Platform.
+            CompTIA ITF+ provides an IT education foundation for upskilling in secondary, post-secondary and beyond. 
+            Covers all IT fundamentals, creating a broader understanding and a helpful on-ramp to tech career pathways.
             - IT Concepts & Terminology
             - Infrastructure
             - Software Development
             - Database Fundamentals
-            - Security Fundamentalsit at.
+            - Security Fundamentals
 
 projects:
     title: Projects
@@ -140,10 +135,10 @@ skills:
 
     toolset:
       - name: Windows 10 Support
-        level: 98%
+        level: 95%
 
       - name: Networking Support
-        level: 95%
+        level: 90%
 
       - name: Automotive Repair
         level: 90%
