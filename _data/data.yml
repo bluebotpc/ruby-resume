@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Ruby Faulkner
-    tagline: IT Technician
+    tagline: Rural Mail Carrier
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -17,7 +17,7 @@ sidebar:
     #phone: 012 345 6789
     timezone: America/Chicago
     #citizenship: USA
-    website: rubyskinner.github.io #do not add http://
+    website: www.bluebotpc.com #do not add http://
     linkedin: ruby-skinner-808979196
     #xing: alandoe
     github: rubyskinner
@@ -42,7 +42,7 @@ sidebar:
     interests:
       title: Interests
       info:
-        - item: Automotive
+        - item: Cars <3
           link:
 
         - item: Agriculture
@@ -70,32 +70,30 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Technician
-        time: 2022 - Present
+      - role: PC Repair Technician
+        time: 2022 - 2024
         company: BlueBotPC LLC, Lone Tree, CO
         details: |
           Providing Personal Computer support in-person and remote using standard Industry tools and 
           processes to efficiently and effectively resolve the root cause for end user issues. 
-          - Customer Service
-          - Laptop & Desktop Support
+          - Windows 10 Troubleshooting
           - Malware Removal
-          - Home Network Support
+          - Printer Setup & Sales
 
       - role: MailRoom Clerk
-        time: 2022 - Present
+        time: 2020 - 2020
         company: Covius Shared Service LLC, Glendale, CO
         details: |
           Responsible for sorting and scanning incoming mail as well as various other Mail Room related tasks. 
           - Entered data from mail into an in-house software.
           - Sorted and counted checks for reality companies. 
 
-      - role: Team Lead
+      - role: Pool Technician Team Leader
         time: 2016 - 2020
         company: HydroTech Pools & Spas, Aurora, CO
         details: |
           As the HydroTech Team Lead I was responsible for a wide range of business operations. Including but not limited to...
-          - Reporting and Logging employee attendance.
-          - Ensures employee hours are logged correctly and employees are paid on-time.
+          - Ensures employee hours are logged correctly.
           - Ensures customers are billed on-time and up-to-date on payments.
           - Takes customer complaints and concerns and addresses them as needed.
           - Scheduled equipment installs and repairs.
@@ -134,17 +132,14 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Windows 10 Support
+      - name: Automotive Repair
         level: 95%
 
-      - name: Networking Support
+      - name: Windows 10 Support
         level: 90%
 
-      - name: Automotive Repair
-        level: 90%
-
-      - name: Plumbing & Electrical
+      - name: Plumbing
         level: 80%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Template by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> - Hosting by <a href="https://www.bluebotpc.com" target="_blank" rel="nofollow">BlueBotPC</a>
